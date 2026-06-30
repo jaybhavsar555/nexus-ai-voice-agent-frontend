@@ -4,8 +4,8 @@ import {
   Building2, Plus, Download, ChevronRight, Activity, Phone,
   Trash2, Pause, Play, Edit2, X, Shield, Globe, Clock, Volume2, Upload, Users, CheckCircle, XCircle, RotateCcw
 } from 'lucide-react';
-import RichSelect from '../components/RichSelect';
-import Modal from '../components/Modal';
+import RichSelect from '../components/rich-select';
+import Modal from '../components/modal';
 
 const Clients = () => {
   const navigate = useNavigate();

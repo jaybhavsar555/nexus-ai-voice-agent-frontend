@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Play, Plus, Users, Download, Activity, CheckCircle, XCircle, Pause, Square, Eye, Archive, RotateCcw } from 'lucide-react';
-import RichSelect from '../components/RichSelect';
-import Modal from '../components/Modal';
+import RichSelect from '../components/rich-select';
+import Modal from '../components/modal';
 
 const Campaigns = () => {
   const [campaigns, setCampaigns] = useState([]);

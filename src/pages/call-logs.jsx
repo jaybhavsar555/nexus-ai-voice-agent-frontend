@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Phone, Clock, CheckCircle2, XCircle, Search, RefreshCw, MessageSquare, ExternalLink } from 'lucide-react';
-import TranscriptModal from '../components/TranscriptModal';
+import TranscriptModal from '../components/transcript-modal';
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL + '/admin';
 

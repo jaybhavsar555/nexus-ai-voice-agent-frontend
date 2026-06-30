@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Save, RefreshCw, AlertCircle, PlayCircle, Settings, FileText, ChevronRight } from 'lucide-react';
-import RichSelect from '../components/RichSelect';
+import RichSelect from '../components/rich-select';
 
 const DomainConfig = () => {
   const [domains, setDomains] = useState([]);

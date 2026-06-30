@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Database, Plus, Search, Brain, CheckCircle } from 'lucide-react';
-import RichSelect from '../components/RichSelect';
+import RichSelect from '../components/rich-select';
 
 const KnowledgeBase = () => {
   const [searchParams] = useSearchParams();
