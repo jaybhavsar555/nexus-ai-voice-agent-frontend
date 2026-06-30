@@ -29,7 +29,7 @@ A premium, high-fidelity administrative dashboard built for managing multi-tenan
 ## 📁 Project Structure
 
 ```text
-sarah-ai-dashboard/
+nexus-ai-voice-agent-frontend/
 ├── src/
 │   ├── components/     # UI Primitives: Modals, Sidebar, RichSelect
 │   ├── pages/          # Operational Views: Home, Clients, Campaigns, CallLogs
@@ -71,4 +71,4 @@ npm run dev
 ---
 
 > [!TIP]
-> This dashboard is designed to work in tandem with the [Sarah AI Backend](../sarah-ai-backend/sarah_ai_backend_app/README.md). Ensure the backend is running and exposed via localtunnel before launching the UI.
+> This dashboard is designed to work in tandem with the [Nexus Voice Agent Backend](../nexus-ai-voice-agent-backend/README.md). Ensure the backend is running and exposed via localtunnel before launching the UI.
